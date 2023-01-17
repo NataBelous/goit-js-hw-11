@@ -10,7 +10,7 @@ body {
 }
 
 .header {
-  background: royalblue;
+  background: rgb(23, 180, 138);
   text-align: center;
   padding: 10px;
   position: sticky;
@@ -19,7 +19,7 @@ body {
 
 .search-form {
   display: flex;
-  width: 300px;
+  width: 500px;
   margin: 0 auto;
 }
 
@@ -34,7 +34,7 @@ body {
   margin: 10px;
   display: flex;
   flex-direction: column;
-  border: 1px solid gray;
+  border: 1px solid rgb(16, 216, 170);
   border-radius: 5px;
 }
 

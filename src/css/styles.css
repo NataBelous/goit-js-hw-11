@@ -7,6 +7,7 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   padding: 0;
   margin: 0;
+  background-color: rgb(201, 238, 229)
 }
 
 .header {
@@ -19,8 +20,19 @@ body {
 
 .search-form {
   display: flex;
-  width: 500px;
   margin: 0 auto;
+  height: 30px;
+}
+
+.input-form {
+  width: 300px;
+  margin-right: 10px;
+  border-color: darkcyan;
+  border-radius: 6px;
+}
+
+.button-form {
+  width: 150px;
 }
 
 .gallery {
@@ -34,7 +46,7 @@ body {
   margin: 10px;
   display: flex;
   flex-direction: column;
-  border: 1px solid rgb(16, 216, 170);
+  border: 2px solid rgb(16, 216, 170);
   border-radius: 5px;
 }
 
@@ -63,6 +75,8 @@ img {
   margin: 20px auto;
   padding: 10px;
   font-size: 20px;
+  border-radius: 6px;
+  background-color: rgb(23, 180, 138); 
 }
 
 .is-hidden {
